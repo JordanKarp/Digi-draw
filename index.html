@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Etch-A-Sketch</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title">Digi-Draw</h1>
+    </header>
+
+    <div class="main">
+        <div id="grid"></div>
+        <div class="settings">
+            <div id="colorDisplay"></div>
+            <input id="rgbSliderR" type="range" value='0' min="0" max="255" />
+            <input id="rgbSliderG" type="range" value='0' min="0" max="255" />
+            <input id="rgbSliderB" type="range" value='0' min="0" max="255" />
+
+            <div id="sizeValue">16</div>
+            <input id="sizeSlider" type="range" value='16' min="4" max="64" />
+            <button id="clearBtn">Clear</button>
+            <button id="resetBtn">Reset</button>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
