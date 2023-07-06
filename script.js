@@ -53,6 +53,7 @@ function reset(size) {
     redSlider.value = 0
     greenSlider.value = 0
     blueSlider.value = 0
+    sizeSlider.style.accentColor = 'rgb(0,0,0)'
     reloadGrid(size)
 }
 
