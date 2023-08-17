@@ -47,8 +47,9 @@ body {
     height: 600px;
     background-color: antiquewhite;
     gap: 1px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #rgbSliderR {
