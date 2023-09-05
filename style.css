@@ -51,6 +51,10 @@ body {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
+#sliders {
+    display: flex;
+    flex-direction: column;
+}
 
 #rgbSliderR {
     accent-color: red;

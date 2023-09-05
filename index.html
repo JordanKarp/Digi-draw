@@ -18,12 +18,17 @@
         <div id="grid"></div>
         <div class="settings">
             <div id="colorDisplay"></div>
-            <div id="sliders">
-                R: <input id="rgbSliderR" type="range" value='0' min="0" max="255" />
-                G: <input id="rgbSliderG" type="range" value='0' min="0" max="255" />
-                B: <input id="rgbSliderB" type="range" value='0' min="0" max="255" />
+            <div id= "values">
+                <p>R: <span id="rValue">0</span></p>
+                <p>G: <span id="rValue">0</span></p>
+                <p>B: <span id="rValue">0</span></p>
                 <div>Size: <span id="sizeValue">16</span></div>
-                <input id="sizeSlider" type="range" value='16' min="4" max="64" />
+            </div>
+            <div id="sliders">
+                <input id="rgbSliderR" type="range" value='0' min="0" max="255" />
+                <input id="rgbSliderG" type="range" value='0' min="0" max="255" />
+                <input id="rgbSliderB" type="range" value='0' min="0" max="255" />
+                Size: <input id="sizeSlider" type="range" value='16' min="2" max="36" />
             </div>
             <div id="buttons">
                 <button id="clearBtn">Clear</button>
