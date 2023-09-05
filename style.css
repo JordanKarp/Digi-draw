@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
 }
-#buttons button {
+button {
     padding: 1rem;
     margin: 1rem;
 }
