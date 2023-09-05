@@ -77,6 +77,10 @@ body {
     accent-color: black;
 }
 
+#preview {
+    justify-content: center;
+}
+
 #previewSquare {
     height: 100px;
     width: 100px;
