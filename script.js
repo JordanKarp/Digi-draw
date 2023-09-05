@@ -5,17 +5,23 @@ let currentColor = DEFAULT_COLOR
 let currentSize = DEFAULT_SIZE
 
 const redSlider = document.getElementById('rgbSliderR')
+const redValue = document.getElementById('redValue')
+
 const greenSlider = document.getElementById('rgbSliderG')
+const greenValue = document.getElementById('greenValue')
+
 const blueSlider = document.getElementById('rgbSliderB')
+const blueValue = document.getElementById('blueValue')
+
 const clearBtn = document.getElementById('clearBtn')
 const resetBtn = document.getElementById('resetBtn')
 const sizeSlider = document.getElementById('sizeSlider')
 const sizeValue = document.getElementById('sizeValue')
 const grid = document.getElementById('grid')
 
-redSlider.onchange = () => setColor()
-greenSlider.onchange = () => setColor()
-blueSlider.onchange = () => setColor()
+redSlider.onchange = () => updateRedValue()
+greenSlider.onchange = () => updateGreenValue()
+blueSlider.onchange = () => updateBlueValue()
 sizeSlider.onmousemove = (e) => updateSizeValue(e.target.value)
 sizeSlider.onchange = (e) => changeSize(e.target.value)
 clearBtn.onclick = () => reloadGrid(currentSize)
@@ -38,6 +44,22 @@ function changeColor(e) {
     }
     e.target.style.backgroundColor = currentColor
 }
+
+function updateRedValue(value) {
+    redValue.innerText = value;
+    setColor()
+}
+
+function updateGreenValue(value) {
+    greenValue.innerText = value;
+    setColor()
+}
+
+function updateBlueValue(value) {
+    blueValue.innerText = value;
+    setColor()
+}
+
 
 function changeSize(value) {
     currentSize = value
