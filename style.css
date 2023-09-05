@@ -14,13 +14,13 @@ body {
 
 .header {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 30px
 }
 
-#title {
+/* #title {
     font-size: 156;
-}
+} */
 
 .main {
     display: flex;
@@ -75,6 +75,13 @@ body {
 
 #sizeSlider {
     accent-color: black;
+}
+
+#previewSquare {
+    background-color: black;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 #buttons {
