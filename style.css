@@ -55,6 +55,7 @@ body {
 #sliders, #values {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 #rgbSliderR {
