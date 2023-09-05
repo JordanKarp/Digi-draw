@@ -57,8 +57,8 @@ body {
     flex-direction: column;
     padding: 1rem;
 }
-#sliders {
-    margin: 1rem;
+#sliders input {
+    margin: 1rem 0;
 }
 
 #rgbSliderR {
