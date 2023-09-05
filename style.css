@@ -78,12 +78,12 @@ body {
 }
 
 #previewSquare {
-    min-height: 100px;
-    min-width: 100px;
+    height: 100px;
+    width: 100px;
     background-color: black;
     margin: 2rem;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 #buttons {
