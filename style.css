@@ -68,9 +68,10 @@ body {
     accent-color: black;
 }
 
-.square {
-    /* border: 1px solid blue; */
+#buttons {
+    display: flex;
 }
+
 footer {
     text-align: center;
 }
