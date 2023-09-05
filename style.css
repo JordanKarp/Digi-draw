@@ -58,7 +58,7 @@ body {
     padding: 1rem;
 }
 #sliders {
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 #rgbSliderR {
@@ -78,7 +78,7 @@ body {
 }
 
 #preview {
-    justify-content: center;
+    align-items: center;
 }
 
 #previewSquare {

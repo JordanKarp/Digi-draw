@@ -51,17 +51,14 @@ function changeColor(e) {
 
 function updateRedValue(value) {
     redValue.innerText = value;
-    setColor()
 }
 
 function updateGreenValue(value) {
     greenValue.innerText = value;
-    setColor()
 }
 
 function updateBlueValue(value) {
     blueValue.innerText = value;
-    setColor()
 }
 
 
