@@ -4,6 +4,7 @@
     box-sizing: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    font-size: 1.5rem;
     /* border: 1px solid red; */
 }
 
@@ -14,7 +15,7 @@ body {
 
 .header {
     text-align: center;
-    font-size: 46;
+    font-size: 3rem;
     padding: 30px
 }
 
