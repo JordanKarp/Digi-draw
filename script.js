@@ -4,6 +4,8 @@ const DEFAULT_SIZE = 16
 let currentColor = DEFAULT_COLOR
 let currentSize = DEFAULT_SIZE
 
+const previewSquare = document.getElementById('previewSquare')
+
 const redSlider = document.getElementById('rgbSliderR')
 const redValue = document.getElementById('redValue')
 const greenSlider = document.getElementById('rgbSliderG')
@@ -37,7 +39,7 @@ document.body.onmouseup = () => (mouseDown = false)
 
 function setColor() {
     currentColor = `rgb(${redSlider.value}, ${greenSlider.value}, ${blueSlider.value})`
-    sizeSlider.style.accentColor = currentColor
+    previewSquare.style.backgroundColor = currentColor
 }
 
 function changeColor(e) {

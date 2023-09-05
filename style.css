@@ -89,7 +89,10 @@ body {
 #buttons {
     display: flex;
     justify-content: center;
+}
+#buttons button {
     padding: 1rem;
+    margin: 1rem;
 }
 
 footer {
