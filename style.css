@@ -30,6 +30,7 @@ body {
 }
 
 #parameters {
+    flex: 25%;
     width: 100%;
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 #grid {
+    flex: 75%;
     background-color: white;
     display: grid;
     min-width: 360px;
