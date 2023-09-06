@@ -42,6 +42,7 @@ body {
 #grid {
     background-color: white;
     display: grid;
+    min-width: 600px;
     width: 600px;
     height: 600px;
     gap: 1px;
