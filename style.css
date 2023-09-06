@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width: 3rem;
+    width: 10rem;
 }
 #sliders input {
     margin: .4rem 0;
