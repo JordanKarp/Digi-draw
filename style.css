@@ -56,8 +56,8 @@ body {
     flex-direction: column;
     padding: 1rem;
 }
-#values p {
-    min-width: 3rem;
+#values{
+    width: 6rem;
 }
 #sliders input {
     margin: .4rem 0;
