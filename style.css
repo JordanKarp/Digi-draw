@@ -42,9 +42,9 @@ body {
 #grid {
     background-color: white;
     display: grid;
-    min-width: 600px;
-    /* width: 600px;
-    height: 600px; */
+    min-width: 300px;
+    width: 600px;
+    /* height: 600px;  */
     gap: 1px;
     border: 1px solid black;
     border-right: 2px solid black;
