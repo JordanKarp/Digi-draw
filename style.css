@@ -55,11 +55,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width: 10rem;
+}
+#values p {
+    min-width: 3rem;
 }
 #sliders input {
     margin: .4rem 0;
 }
+
 
 #rgbSliderR {
     accent-color: red;
