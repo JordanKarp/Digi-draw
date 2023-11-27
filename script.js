@@ -15,6 +15,7 @@ const blueValue = document.getElementById('blueValue')
 const sizeSlider = document.getElementById('sizeSlider')
 const sizeValue = document.getElementById('sizeValue')
 
+const gridBtn = document.getElementById('gridBtn')
 const clearBtn = document.getElementById('clearBtn')
 const resetBtn = document.getElementById('resetBtn')
 
@@ -28,6 +29,7 @@ blueSlider.onchange = () => setColor()
 blueSlider.onmousemove = (e) => updateBlueValue(e.target.value)
 sizeSlider.onmousemove = (e) => updateSizeValue(e.target.value)
 sizeSlider.onchange = (e) => changeSize(e.target.value)
+gridBtn.onclick = () => toggleGridColor()
 clearBtn.onclick = () => reloadGrid(currentSize)
 resetBtn.onclick = () => reset(currentSize)
 
@@ -78,6 +80,15 @@ function reset(size) {
     blueSlider.value = 0
     sizeSlider.style.accentColor = 'rgb(0,0,0)'
     reloadGrid(size)
+}
+
+function toggleGridColor(){
+    const r = document.querySelector(':root');
+    if (gridBtn.checked) {
+        r.style.setProperty('--grid-color', 'grey')
+    } else {
+        r.style.setProperty('--grid-color', 'white')
+    }
 }
 
 function reloadGrid(size) {

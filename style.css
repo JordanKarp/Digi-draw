@@ -1,3 +1,7 @@
+:root {
+    --grid-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +54,7 @@ body {
 
 #grid {
     flex: 75%;
-    background-color: white;
+    background-color: var(--grid-color);
     display: grid;
     min-width: 360px;
     min-height: 360px;
@@ -61,13 +65,21 @@ body {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     aspect-ratio: 1;
+    cursor: url('paint.svg') 0 64, auto;
 
+}
+#grid > div {
+    background-color: white;
 }
 
 
 #sliders, #values {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+}
+
+#optionToggles {
     padding: 1rem;
 }
 #values{
