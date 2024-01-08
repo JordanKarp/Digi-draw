@@ -68,12 +68,14 @@ body {
     cursor: url('paint.svg') 0 64, auto;
 
 }
-#grid > div {
+
+#grid>div {
     background-color: white;
 }
 
 
-#sliders, #values {
+#sliders,
+#values {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -82,9 +84,11 @@ body {
 #optionToggles {
     padding: 1rem;
 }
-#values{
-    width: 8rem;
+
+#values {
+    width: 10rem;
 }
+
 #sliders input {
     margin: .4rem 0;
 }
@@ -124,6 +128,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 button {
     padding: 1rem;
     margin: 1rem;
